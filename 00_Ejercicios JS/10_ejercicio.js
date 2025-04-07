@@ -6,13 +6,13 @@
 let numeros = [1, 2, 3, 4, 5, 1, 2, 3, 1, 4, 5];
 let contador = 0;
 
-let num = 1;
+let num_buscado = 1;
 
 for (let i = 0; i < numeros.length; i++) {
-    if (numeros[i] === num) {
+    if (numeros[i] === num_buscado) {
         contador++;
     }
 }
 
 console.log('Arreglo completo:', numeros);
-console.log(`El número ${num} aparece ${contador} veces en el array.`);
+console.log(`El número ${num_buscado} aparece ${contador} veces en el arreglo.`);
