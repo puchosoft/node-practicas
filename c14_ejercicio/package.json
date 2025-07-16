@@ -1,0 +1,20 @@
+{
+  "name": "c14_ejercicio",
+  "version": "1.0.0",
+  "description": "Practica Clase #14",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jose Luis Gonzalez",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "firebase": "^11.10.0"
+  }
+}
